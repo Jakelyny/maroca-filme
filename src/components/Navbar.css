@@ -1,9 +1,17 @@
 #navbar {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
+    gap: 2rem;
     background-color: #121212;
+    -webkit-box-shadow: 3px 7px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 13px -1px rgba(0,0,0,0.75);
+}
+
+#navbar h2 {
+    font-size: 3rem;
 }
 
 #navbar h2 a {
@@ -20,8 +28,10 @@
 #navbar input {
     padding: 0.2rem 0.8rem;
     border-radius: 4px;
-    border: none;
     margin-right: -10px;
+    background-color: #bbc5c9;
+    border: none;
+    width: 17rem;
 }
 
 #navbar form button {
@@ -40,4 +50,22 @@
 #navbar form button:hover {
     background-color: transparent;
     color: #209de3;
+}
+
+#footer {
+    gap: 1rem;
+    display: flex;
+    color: #bbc5c9;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+    background-color: #121212;
+    -webkit-box-shadow: 1px -11px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -11px 23px -10px rgba(0,0,0,0.75);
+    box-shadow: 1px -11px 23px -10px rgba(0,0,0,0.75);
+}
+
+#footer a {
+    color: #bbc5c9;
 }
