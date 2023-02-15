@@ -16,22 +16,37 @@
 }
 
 .movies-container {
+    gap: 2.5rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 2rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width: 1117px) {
 	.movies-container {
         justify-content: center;
     }
+    .movies-container div {
+        width: 40% !important;
+        
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .movies-container div {
+        width: 60% !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .movies-container div {
+        width: 80% !important;
+    }
 }
 
 .movies-container div {
-    width: 30%
+    width: 30%;
     color: #fff;
     margin-bottom: 2.5rem;
     display: flex;
