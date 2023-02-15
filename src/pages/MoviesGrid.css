@@ -1,8 +1,14 @@
 .container .title {
-    color: #FFF;
+    color: #d8e5ed;
     font-size: 2.5rem;
     text-align: center;
     margin: 2rem 0 1rem;
+}
+
+.container .title span{
+    background-color: #209de3;
+    color: #181823;
+    padding: 5px;
 }
 
 .title .query-text {
@@ -18,6 +24,12 @@
     margin: 0 auto;
 }
 
+@media screen and (max-width: 1117px) {
+	.movies-container {
+        justify-content: center;
+    }
+}
+
 .movies-container div {
     width: 30%
     color: #fff;
@@ -26,7 +38,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #111;
-    padding: 0.5rem;
+    padding: 0.8rem;
 }
 
 .movies-container div img {
@@ -42,11 +54,6 @@
 .movies-container div h2,
 .movies-container div p {
     margin-bottom: 1rem;
-}
-
-.movies-container div svg {
-    color: #f7d354;
-    font-size: 1rem;
 }
 
 .movies-container div a {
