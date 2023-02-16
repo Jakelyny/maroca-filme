@@ -10,7 +10,7 @@ npm install
 
 Projetinho trata-se de um estudo sobre React criado com Vite na implementação de consumo de API, aqui no caso a do TMDB (filmes), utilizando Hooks, React Router e Icons React.
 
-* A página inicial da aplicação listra os 20 melhores filmes por avaliação dos usuários, sendo possível abaixo do título e pontuação do filme ver mais detalhes do mesmo, que direciona a página do filme, lá possuem algumas informações como descrição, título original, duração e afins. Ao realizar a busca no header, é feito o redirecionamento para a listagem de pesquisas relacionadas, nela você também pode ir até a página de detalhes da obra escolhida e adquirir informações a mais:
+* A página inicial da aplicação listra os 20 melhores filmes por avaliação dos usuários, sendo possível abaixo do título e pontuação do filme ver mais detalhes do mesmo, que direciona a página do filme, lá possuem algumas informações como descrição, título original, duração e afins. Ao realizar a busca no header, é feito o redirecionamento para a listagem de pesquisas relacionadas, nela você também pode ir até a página de detalhes da obra escolhida e adquirir informações a mais, para retornar a home, basca clicar sobre a logo Maroca Filme:
 
 <hr>
 
@@ -26,6 +26,6 @@ Projetinho trata-se de um estudo sobre React criado com Vite na implementação 
 <br/>
 
 ### Detalhes:
-![image](https://user-images.githubusercontent.com/85123013/219234262-2ecc35c9-003e-4a43-b19d-d4539fa93978.png)
+![image](https://user-images.githubusercontent.com/85123013/219251767-2764370c-8b90-43b5-a6cd-a77d1a92b4ef.png)
 
 <hr>
