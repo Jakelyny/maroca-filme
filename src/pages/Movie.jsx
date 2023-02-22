@@ -4,6 +4,7 @@ import {
   BsClipboardData,
   BsCreditCard,
   BsAlarm,
+  BsFilm,
   BsJournalText,
 } from "react-icons/bs";
 
@@ -63,7 +64,7 @@ const Movie = () => {
           </div>
           <div className="info">
             <h3>
-              <BsAlarm /> Gênero: 
+              <BsFilm size={19}/> Gênero: 
               <span>
                 {movie.genres.map(genre => (<span key={genre.id}> | {genre.name} </span>))} |
               </span>
