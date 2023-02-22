@@ -61,6 +61,14 @@ const Movie = () => {
               <BsAlarm /> Duração: <span>{movie.runtime} minutos</span>
             </h3>
           </div>
+          <div className="info">
+            <h3>
+              <BsAlarm /> Gênero: 
+              <span>
+                {movie.genres.map(genre => (<span key={genre.id}> | {genre.name} </span>))} |
+              </span>
+            </h3>
+          </div>
           <div className="info description">
             <h3>
               <BsJournalText /> Descrição:
