@@ -1,6 +1,6 @@
 Para rodar o projeto basta usar: 
 ```
-npm start
+npm run dev
 ```
 
 Em caso de instalações de dependencias e pacotes, executa-se:
@@ -15,17 +15,17 @@ Projetinho trata-se de um estudo sobre React criado com Vite na implementação 
 <hr>
 
 ### Home: 
-![image](https://user-images.githubusercontent.com/85123013/219233748-9d4aeeb1-e75f-4c0a-98b2-3a6a04dc2f6c.png)
+![image](https://user-images.githubusercontent.com/85123013/221920579-76c975e3-b7f1-48bb-a1f4-8faa093919f4.png)
 
 
 <br/>
 
 ### Busca:
-![image](https://user-images.githubusercontent.com/85123013/219233957-c59b9196-a51d-449b-aa66-0ce5ca0c06d4.png)
+![image](https://user-images.githubusercontent.com/85123013/221921249-2408fe7b-6c50-442a-ab16-ea5d20976987.png)
 
 <br/>
 
 ### Detalhes:
-![image](https://user-images.githubusercontent.com/85123013/219251767-2764370c-8b90-43b5-a6cd-a77d1a92b4ef.png)
+![image](https://user-images.githubusercontent.com/85123013/221921635-bdc35378-54fb-4eae-9fba-c5ab975f8eb3.png)
 
 <hr>
