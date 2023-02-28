@@ -10,7 +10,7 @@ npm install
 
 Projetinho trata-se de um estudo sobre React criado com Vite na implementação de consumo de API, aqui no caso a do TMDB (filmes), utilizando Hooks, React Router e Icons React.
 
-> O nome `Maroca` vindo do Maranheis (Maranhense) significa a pessoa curiosa demais, quer saber da vida dos outros, mas no nosso caso é de filmes! Vamos marocar sobre diversos filmes e obras em geral.
+> O nome `Maroca` vindo do Maranheis (Maranhense) significa a pessoa curiosa demais, que quer saber da vida dos outros, mas no nosso caso é de filmes! Vamos marocar sobre diversos filmes e obras em geral dos outros! 🤭
 
 * A página inicial da aplicação lista os 20 melhores filmes por avaliação dos usuários, sendo possível abaixo do título e pontuação do filme ver mais detalhes do mesmo, que direciona a página do filme, lá possuem algumas informações como descrição, título original, duração e afins. Ao realizar a busca no header, é feito o redirecionamento para a listagem de pesquisas relacionadas, nela você também pode ir até a página de detalhes da obra escolhida e adquirir informações a mais, para retornar a home, basca clicar sobre a logo Maroca Filme:
 
